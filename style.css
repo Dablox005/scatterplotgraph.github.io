@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    color: honeydew;
+}
+
+#title {
+    font-size: 28px;
+    text-transform: uppercase;
+}
